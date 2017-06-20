@@ -65,7 +65,7 @@ Optional:
     Image (AMI) after importing. Valid values: `AWS` or `BYOL` (default).
     For more details regarding licensing, see
     [Prerequisites](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/VMImportPrerequisites.html)
-    in the VM Import/Export User Guide.
+    in the VM Import/Export User Guide. (Added in 1.0.1)
 
 -   `mfa_code` (string) - The MFA [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm)
     code. This should probably be a user variable since it changes all the time.
