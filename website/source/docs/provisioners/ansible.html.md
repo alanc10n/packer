@@ -90,7 +90,7 @@ Optional Parameters:
     temporary file will be passed to the `-i` argument of the `ansible` command
     when this provisioner runs ansible. Specify this if you have an existing
     inventory directory with `host_vars` `group_vars` that you would like to use
-    in the playbook that this provisioner will run.
+    in the playbook that this provisioner will run. (Added in 1.0.1)
 
 -   `local_port` (string) - The port on which to attempt to listen for SSH
     connections. This value is a starting point. The provisioner will attempt
@@ -105,7 +105,7 @@ Optional Parameters:
 
 -   `skip_version_check` (bool) - Check if ansible is installed prior to running.
     Set this to `true`, for example, if you're going to install ansible during
-    the packer run.
+    the packer run. (Added in 1.0.1)
 
 -   `ssh_host_key_file` (string) - The SSH key that will be used to run the SSH
     server on the host machine to forward commands to the target machine. Ansible
