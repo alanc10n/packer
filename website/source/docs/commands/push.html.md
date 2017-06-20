@@ -48,6 +48,7 @@ configuration using the options below.
     sensitive in the Terraform Enterprise ui. These variables' keys will be
     visible, but their values will be redacted. example usage:
     `-var 'supersecretpassword=mypassword' -sensitive=supersecretpassword1`
+    (Added in 1.0.1)
 
 -   `-var` - Set a variable in your packer template. This option can be used
     multiple times. This is useful for setting version numbers for your build.
